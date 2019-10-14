@@ -19,7 +19,7 @@ table_names = ['STUDENT_INFO', 'ASSESSMENTS','COURSES','VLE','STUDENT_ASSESSMENT
 
 
 ```python
-idadb_c667f3e30cc04bae88b4ad591071d6b2 = IdaDataBase(dsn='DASHDB;Database=BLUDB;Hostname=dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net;Port=50000;PROTOCOL=TCPIP;UID=lsr68256;PWD=2cz+b3kf2t4tsbl1')
+idadb_c667f3e30cc04bae88b4ad591071d6b2 = IdaDataBase(dsn='<your DSN here>')
 lop_tables = dict()
 for table_name in table_names:
     data_df = IdaDataFrame(idadb_c667f3e30cc04bae88b4ad591071d6b2, str.format('{0}.{1}',schema_name,table_name)).as_dataframe()    
