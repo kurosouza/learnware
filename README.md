@@ -10,7 +10,7 @@ This project uses the [Open University Learning Analytics Dataset](https://www.k
 
 The dataset has a nicely laid out structure:
 
-![](/media/dreamchild/cosmic/projects/db2-hackathon/log_notebook_3/db.png)
+![](./db.png)
 
 ###### Image credits: [https://analyse.kmi.open.ac.uk/open_dataset](https://analyse.kmi.open.ac.uk/open_dataset)
 
